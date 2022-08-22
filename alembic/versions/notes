@@ -1,0 +1,16 @@
+database migration in python using alembic
+
+1.alembic revision -m"create table'
+1.alembic heads
+alembic upgrade head
+
+2.alembic revision -m"add content to table post'
+2.alembic heads
+alembic upgrade head
+
+3.alembic revision -m"add user table'
+3.alembic heads
+alembic upgrade head
+
+alembic revision --autogenerate =m "auto votes"
+
