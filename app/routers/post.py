@@ -1,8 +1,8 @@
 
 
-from unittest import result
+
 from .. import models, oauth2,schemas
-from fastapi import FastAPI,Response,status,HTTPException,Depends,APIRouter
+from fastapi import Response,status,HTTPException,Depends,APIRouter
 from sqlalchemy.orm import Session
 from sqlalchemy.sql import func
 from ..database import get_db
